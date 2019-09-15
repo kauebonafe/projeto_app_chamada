@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+
+
+
+
+
+
+        <!-- EditText Tela Login -->
+        <style name="EditTextLogin" parent="Widget.AppCompat.EditText">
+            <item name="android:layout_height">40dp</item>
+            <item name="android:background">@color/colorPrimaryDark</item>
+            <item name="android:padding">10dp</item>
+            <item name="android:textSize">16dp</item>
+            <item name="android:textColorHint">@color/colorPrimaryDark</item>
+            <item name="android:textColor">@color/colorPrimaryDark</item>
+        </style>
+
+        <!-- EditText padrao -->
+        <style name="EditTextPadrao" parent="Widget.AppCompat.EditText">
+            <item name="android:background">@color/colorPrimaryDark</item>
+            <item name="android:padding">10dp</item>
+            <item name="android:textSize">16dp</item>
+            <item name="android:textColorHint">@color/colorPrimaryDark</item>
+            <item name="android:textColor">@color/colorPrimaryDark</item>
+        </style>
+
+        <!-- TextView padrao -->
+        <style name="TextViewPadrao" parent="AppTheme">
+            <item name="android:textSize">14sp</item>
+            <item name="android:textColor">@color/colorPrimaryDark</item>
+        </style>
+
+        <!-- TextView titulo -->
+        <style name="TextViewTitulo" parent="AppTheme">
+            <item name="android:textSize">10sp</item>
+            <item name="android:textColor">@color/colorPrimaryDark</item>
+        </style>
+
+        <!-- Checkbox padrao -->
+        <style name="CheckBoxPadrao" parent="AppTheme">
+            <item name="colorControlNormal">@color/colorPrimaryDark
+            </item>   <!-- normal border color change as you wish -->
+            <item name="colorControlActivated">@color/colorPrimaryDark
+            </item> <!-- activated color change as you wish -->
+            <item name="android:textColor">@color/colorPrimaryDark</item> <!-- checkbox text color -->
+        </style>
+
+        <!-- Button padrao -->
+        <style name="ButtonPadrao" parent="AppTheme">
+            <item name="android:background">@color/colorPrimaryDark</item>
+            <item name="android:textColor">@color/colorPrimaryDark</item>
+            <item name="android:layout_gravity">center</item>
+            <item name="android:textAllCaps">true</item>
+            <item name="android:paddingTop">5dp</item>
+            <item name="android:paddingBottom">5dp</item>
+            <item name="android:paddingLeft">20dp</item>
+            <item name="android:paddingRight">20dp</item>
+            <item name="android:layout_width">match_parent</item>
+        </style>
+
+        <style name="AppTheme.PopupOverlay" parent="Base.Theme.AppCompat.Light.Dialog.Alert" />
+
+        <!-- TabLayout padrao -->
+        <style name="MyTabLayoutTextAppearance" parent="Widget.Design.TabLayout">
+            <item name="tabIndicatorColor">?attr/colorAccent</item>
+            <item name="tabIndicatorHeight">2dp</item>
+            <item name="tabPaddingStart">30dp</item>
+            <item name="tabPaddingEnd">30dp</item>
+            <item name="tabBackground">@color/colorPrimaryDark</item>
+
+            <item name="tabSelectedTextColor">@color/colorPrimaryDark</item>
+        </style>
+
+        <!-- for text -->
+
+
+
+    <style name="MyEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:textColor">#400000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@android:drawable/editbox_background_normal</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+
+    <style name="TextViewSpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+
+    </style>
+
+    <style name="TextViewSpinnerDropDownItem" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+    </style>
+
+</resources>

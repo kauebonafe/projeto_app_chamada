@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="@drawable/fundo"
+    android:backgroundTint="@color/colorPrimary"
+    android:backgroundTintMode="multiply">
+
+
+
+    <ImageView
+        android:id="@+id/nav_header_imageView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/usuario"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+
+
+
+
+        />
+
+
+    >
+    <TextView
+        android:id="@+id/nav_header_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Joao Pereira Da Silva"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:id="@+id/et_cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="RA: 8181818181"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+</LinearLayout>

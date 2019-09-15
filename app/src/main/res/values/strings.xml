@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppChamada</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+
+    <string name="app_curso">Curso</string>
+    <string name="app_disciplina">Disciplina</string>
+    <string name="app_turma">Turma</string>
+    <string name="app_data">Data</string>
+    <string name="app_botao_buscar">Buscar</string>
+    <string name="data">__/__/__</string>
+</resources>
